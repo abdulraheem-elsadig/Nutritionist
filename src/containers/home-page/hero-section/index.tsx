@@ -4,9 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
-
-const HeroSection = (props: Props) => {
+const HeroSection = () => {
   return (
     <section className="flex flex-col gap-0">
       <div className="relative h-[50vh] w-full rounded-b-3xl overflow-hidden">

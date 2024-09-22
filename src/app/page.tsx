@@ -1,10 +1,11 @@
+import FeaturesSeciton from "@/containers/home-page/features-section";
 import HeroSection from "@/containers/home-page/hero-section";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="grid gap-14">
       <HeroSection />
+      <FeaturesSeciton />
     </div>
   );
 }
