@@ -11,7 +11,7 @@ type Props = {
 
 const InfoCard = ({ data }: Props) => {
   return (
-    <div className="bg-lime-50 border border-s-lime-200 p-8 rounded-lg">
+    <div className="bg-lime-50 border border-s-lime-200 p-8 rounded-xl">
       <div className="flex gap-4 items-center">
         <div className="bg-lime-200 min-w-12 h-12 flex items-center justify-center rounded-md ">
           {data.icon}
