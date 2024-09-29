@@ -2,12 +2,10 @@ import SectionHeader from "@/components/SectionHeader";
 import InfoCard from "@/components/ui/InfoCard";
 import {
   AcademicCapIcon,
-  ClipboardDocumentIcon,
   ClipboardIcon,
   PresentationChartLineIcon,
   StarIcon,
   UserIcon,
-  UsersIcon,
 } from "@heroicons/react/16/solid";
 import React from "react";
 

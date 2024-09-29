@@ -16,9 +16,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css";
 
-type Props = {};
-
-const TestimonialSection = (props: Props) => {
+const TestimonialSection = () => {
   return (
     <section className="container grid gap-12">
       <SectionHeader

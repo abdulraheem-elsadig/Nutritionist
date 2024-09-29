@@ -1,11 +1,9 @@
 import PriceCard from "@/components/PriceCard";
 import SectionHeader from "@/components/SectionHeader";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import React from "react";
 
-type Props = {};
-
-const PricingSeciton = (props: Props) => {
+const PricingSeciton = () => {
   return (
     <section className="container">
       <SectionHeader

@@ -1,9 +1,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 
-type Props = {};
-
-const PriceCard = (props: Props) => {
+const PriceCard = () => {
   return (
     <div className="bg-lime-50 rounded-lg border border-lime-300 p-8 grid gap-6">
       <div>
@@ -14,8 +12,8 @@ const PriceCard = (props: Props) => {
       </div>
       <p className="font-medium text-sm ">
         Upgrade to our Premium Plan for enhanced features. In addition to the
-        Basic Plan, you'll receive video consultations, priority support, and
-        personalized recipe recommendations.
+        Basic Plan, you&quot;ll receive video consultations, priority support,
+        and personalized recipe recommendations.
       </p>
       <div className="flex items-center">
         <span className="font-bold text-4xl text-emerald-900">$79</span>

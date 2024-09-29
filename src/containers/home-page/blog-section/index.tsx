@@ -2,9 +2,7 @@ import BlogCard from "@/components/BlogCard";
 import SectionHeader from "@/components/SectionHeader";
 import React from "react";
 
-type Props = {};
-
-const BlogSection = (props: Props) => {
+const BlogSection = () => {
   return (
     <section className="container grid gap-12">
       <SectionHeader
@@ -12,7 +10,7 @@ const BlogSection = (props: Props) => {
         subTitle="Our blog is a treasure trove of informative and engaging articles written by our team of nutritionists, dietitians, and wellness experts. Here's what you can expect from our blog.   "
       />
       {blogs.map((blog) => (
-        <BlogCard data={blog} />
+        <BlogCard data={blog} key={blog.id} />
       ))}
     </section>
   );
@@ -22,6 +20,7 @@ export default BlogSection;
 
 const blogs = [
   {
+    id: 1,
     category: "Weight Loss",
     title: "The Benefits of Hydration for Weight Loss",
     cover:
@@ -37,6 +36,7 @@ const blogs = [
     },
   },
   {
+    id: 2,
     category: "Understanding Macronutrients",
     title: "Cultivating a Healthy Relationship with Food",
     cover:
@@ -52,6 +52,7 @@ const blogs = [
     },
   },
   {
+    id: 3,
     category: "Healthy Snacks on the Go",
     title: "Quick and Nutritious Options",
     cover:
@@ -67,6 +68,7 @@ const blogs = [
     },
   },
   {
+    id: 4,
     category: "Understanding Macronutrients",
     title: "Carbohydrates, Proteins, and Fats",
     cover:
