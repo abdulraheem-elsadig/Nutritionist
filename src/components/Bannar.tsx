@@ -8,7 +8,7 @@ type Props = {
     title: string;
     description: string;
     btnLabel: string;
-    action: () => void;
+    action?: () => void;
   };
 };
 

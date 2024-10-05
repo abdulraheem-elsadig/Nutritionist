@@ -6,12 +6,12 @@ import TestimonialSection from "@/containers/home-page/testimonials-section";
 
 export default function Home() {
   return (
-    <div className="grid gap-14">
+    <main className="grid gap-14">
       <HeroSection />
       <FeaturesSeciton />
       <BlogSection />
       <TestimonialSection />
       <PricingSeciton />
-    </div>
+    </main>
   );
 }
