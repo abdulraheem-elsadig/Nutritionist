@@ -1,4 +1,4 @@
-import PriceCard from "@/components/PriceCard";
+// import PriceCard from "@/components/PriceCard";
 import SectionHeader from "@/components/SectionHeader";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import React from "react";
@@ -26,9 +26,9 @@ const PricingSeciton = () => {
 
       {/* price cards */}
       <div className="grid gap-5 mt-8">
+        {/* <PriceCard />
         <PriceCard />
-        <PriceCard />
-        <PriceCard />
+        <PriceCard /> */}
       </div>
     </section>
   );

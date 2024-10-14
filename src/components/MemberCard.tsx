@@ -1,7 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { Button } from "./ui/button";
-import { BookmarkIcon, HeartIcon } from "@heroicons/react/24/outline";
 
 type Props = {
   data: {

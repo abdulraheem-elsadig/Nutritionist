@@ -7,9 +7,7 @@ import {
 } from "@heroicons/react/16/solid";
 import React from "react";
 
-type Props = {};
-
-const HowItWorksSection = (props: Props) => {
+const HowItWorksSection = () => {
   return (
     <section>
       <div className="text-center mb-12">
@@ -18,7 +16,7 @@ const HowItWorksSection = (props: Props) => {
           We provide a step-by-step guide on how to get started on your journey
           towards better health and nutrition. We are here to simplify the
           process and make it easy for you to navigate our platform and access
-          the resources you need to achieve your goals. Here's how it works
+          the resources you need to achieve your goals. Here&apos;s how it works
         </p>
       </div>
       <div className="grid gap-7">

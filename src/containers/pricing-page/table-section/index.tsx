@@ -9,7 +9,6 @@ import {
 import { Check, X } from "lucide-react";
 import React from "react";
 
-type Props = {};
 const features = [
   "Personalized Nutrition Plan",
   "Mobile App Access",

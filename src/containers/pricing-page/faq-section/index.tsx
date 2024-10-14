@@ -8,7 +8,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { Plus, X } from "lucide-react";
 import Image from "next/image";
 import React, { useState } from "react";
 

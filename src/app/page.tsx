@@ -6,7 +6,7 @@ import TestimonialSection from "@/containers/home-page/testimonials-section";
 
 export default function Home() {
   return (
-    <main className="grid gap-14">
+    <main className="space-y-14">
       <HeroSection />
       <FeaturesSeciton />
       <BlogSection />

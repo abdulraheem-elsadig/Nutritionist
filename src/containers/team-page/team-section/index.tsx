@@ -1,6 +1,5 @@
 import MemberCard from "@/components/MemberCard";
 import PageHeader from "@/components/PageHeader";
-import Image from "next/image";
 import React from "react";
 
 const TeamSection = () => {
@@ -20,7 +19,7 @@ const TeamSection = () => {
       />
       <div className="grid gap-4">
         {members.map((member) => (
-          <MemberCard data={member} />
+          <MemberCard data={member} key={member.id} />
         ))}
       </div>
     </div>
